@@ -35,11 +35,7 @@ public class BaseClass {
 		
 	}
 	
-	public void Select2(WebElement e,int n) {
-		Select s=new Select(e);
-		s.selectByIndex(n);
-		
-	}
+	
 	
 
 }
