@@ -38,8 +38,7 @@ public class BaseClass {
 		System.out.println("Lavanya");
 		System.out.println("Lavanya");
 		System.out.println("Lavanya");
-		System.out.println("Lavanya");
-		System.out.println("Lavanya");
+	
 		
 	}
 	
