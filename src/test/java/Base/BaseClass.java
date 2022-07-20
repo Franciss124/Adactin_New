@@ -34,7 +34,9 @@ public class BaseClass {
 		s.selectByIndex(n);
 		
 	}
-	
+	public void Francis() {
+		System.out.println("Lavanya");
+	}
 	
 	
 

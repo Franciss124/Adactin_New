@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-20T20:49:43 IST" name="Default suite" finished-at="2022-07-20T20:50:00 IST" duration-ms="16418">
+  <suite started-at="2022-07-20T21:32:47 IST" name="Default suite" finished-at="2022-07-20T21:32:57 IST" duration-ms="10484">
     <groups>
     </groups>
-    <test started-at="2022-07-20T20:49:43 IST" name="Default test" finished-at="2022-07-20T20:50:00 IST" duration-ms="16418">
+    <test started-at="2022-07-20T21:32:47 IST" name="Default test" finished-at="2022-07-20T21:32:57 IST" duration-ms="10484">
       <class name="TestCases.Test1">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T20:49:43 IST" name="beforeClass" finished-at="2022-07-20T20:49:57 IST" duration-ms="13502" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T21:32:47 IST" name="beforeClass" finished-at="2022-07-20T21:32:51 IST" duration-ms="4466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="tc1()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T20:49:57 IST" name="tc1" finished-at="2022-07-20T20:49:58 IST" duration-ms="971" status="PASS">
+        <test-method signature="tc1()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T21:32:51 IST" name="tc1" finished-at="2022-07-20T21:32:55 IST" duration-ms="3047" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc1 -->
-        <test-method signature="tc2()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T20:49:58 IST" name="tc2" finished-at="2022-07-20T20:49:59 IST" duration-ms="961" status="PASS">
+        <test-method signature="tc2()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T21:32:55 IST" name="tc2" finished-at="2022-07-20T21:32:56 IST" duration-ms="1956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc2 -->
-        <test-method signature="tc3()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T20:49:59 IST" name="tc3" finished-at="2022-07-20T20:49:59 IST" duration-ms="612" status="PASS">
+        <test-method signature="tc3()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T21:32:56 IST" name="tc3" finished-at="2022-07-20T21:32:57 IST" duration-ms="632" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc3 -->
-        <test-method signature="tc4()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T20:49:59 IST" name="tc4" finished-at="2022-07-20T20:50:00 IST" duration-ms="352" status="PASS">
+        <test-method signature="tc4()[pri:0, instance:TestCases.Test1@e1de817]" started-at="2022-07-20T21:32:57 IST" name="tc4" finished-at="2022-07-20T21:32:57 IST" duration-ms="363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tc4 -->
