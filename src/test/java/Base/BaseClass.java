@@ -36,6 +36,7 @@ public class BaseClass {
 	}
 	public void Francis() {
 		System.out.println("Lavanya");
+		System.out.println("Lavanya");
 	}
 	
 	
