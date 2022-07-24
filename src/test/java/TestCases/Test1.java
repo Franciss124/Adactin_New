@@ -2,6 +2,7 @@ package TestCases;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -11,7 +12,7 @@ import PagesObject.Login;
 import PagesObject.SearchHotel;
 import PagesObject.SelectHotel;
 
-public class Test1 {
+public class Test1 extends BookHotel{
 
 	@BeforeClass
 	public void beforeClass() throws InterruptedException {
@@ -21,7 +22,7 @@ public class Test1 {
 		// Thread.sleep(5000);
 	}
 
-	@Test
+	@Test(groups="smoke")
 	public void tc1() throws InterruptedException {
 
 		BaseClass b = new BaseClass();
@@ -35,8 +36,9 @@ public class Test1 {
 		b.click1(userName);
 		b.click1(login);
 	}
+	
 
-	@Test
+	@Test(groups="smoke")
 	public void tc2() {
 		BaseClass b = new BaseClass();
 		SearchHotel sh = new SearchHotel();
@@ -95,6 +97,11 @@ public class Test1 {
 		WebElement book_now = bh.getBook_now();
 		b.click1(book_now);
 
+	}
+	@AfterClass
+	public void afterClass() throws InterruptedException {
+		Thread.sleep(15000);
+		driver.quit();
 	}
 
 }
